@@ -49,6 +49,7 @@ class Linklist{
     while(temp.next.next!=null){
       temp=temp.next;
     }
+    temp.next = null;
   }
 }
 
